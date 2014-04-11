@@ -1,0 +1,40 @@
+{
+  "name": "grunt-bower-create-config",
+  "version": "0.0.1",
+  "description": "Create bower config files with Grunt.",
+  "main": [
+    "tasks/bowerCreateConfig.js"
+  ],
+  "scripts": {},
+  "homepage": "https://github.com/psyrendust/grunt-bower-create-config",
+  "issues": "https://github.com/psyrendust/grunt-bower-create-config/issues",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:psyrendust/grunt-bower-create-config.git"
+  },
+  "keywords": [
+    "grunt",
+    "bower",
+    "bower.json",
+    "config"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://psyrendust.mit-license.org/2014"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "change-case": "2.1.0",
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  }
+}
